@@ -1,0 +1,97 @@
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-Regular.otf);
+}
+
+@font-face {
+    font-family: ppmori;
+    src: url(./ppmori.ttf);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    background-color: #0F0D0D;
+}
+
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: blue; */
+    color: #fff;
+}
+
+#nav{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#nav img{
+    width: 40px;
+
+}
+
+#navcen{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+#navcen a{
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all ease .2s;
+
+}
+
+#nav #navcir{
+    width: 20px;
+    height: 20px;
+    background-color:#fff;
+    border-radius: 50%;
+}
+
+#navcen a:nth-child(1){
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+}
+
+#navcen a:hover{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+}
+
+#page1 h1{
+    font-size: 8vw;
+    font-family: ppmori;
+    font-weight: 400;
+    margin-top: 12vw;
+    margin-left: 6vw;
+}
+
+#page1 h2{
+    font-size: 8vw;
+    font-family: ppmori;
+    font-weight: 400;
+    margin-left: 26vw;
+}
