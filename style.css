@@ -28,7 +28,7 @@ html,body{
 
 
 #page1{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     /* background-color: blue; */
     color: #fff;
@@ -94,4 +94,12 @@ html,body{
     font-family: ppmori;
     font-weight: 400;
     margin-left: 26vw;
+}
+
+#page1 video {
+    width: 60%;
+    margin-top: 10vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
