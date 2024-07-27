@@ -103,3 +103,71 @@ html,body{
     left: 50%;
     transform: translate(-50%, 0);
 }
+
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px 5vw;
+    border-bottom: 2px solid black;
+}
+
+#page2 h1{
+    font-size: 7vw;
+    font-weight: 500;
+    font-family: ppmori;
+    color: #111;
+}
+
+#page2 #cnt{
+    height: 60vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+#page2 #left{
+    /* background-color: red; */
+    width: 40%;
+}
+
+#page2 #left h2{
+    font-size: 4vw;
+    font-weight: 300;
+    line-height: 4vw;
+}
+
+#page2 #right{
+    /* background-color: red; */
+    width: 25%;
+}
+
+
+#page2 #right p{
+    font-size: 22px;
+}
+
+#page2 #right button{
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    padding: 4px 0;
+    background-color: #EDBFFF;
+    color: #111;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+#page2 #right button:hover{
+    background-color: #0F0D0D;
+    color: #fff;
+}
+
+#page3{
+    min-height: 130vh;
+    width: 100%;
+}
