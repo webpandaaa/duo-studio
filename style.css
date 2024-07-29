@@ -230,7 +230,7 @@ html,body{
 }
 
 #page4{
-    min-height: 150vh;
+    min-height: 110vh;
     width: 100%;
     z-index: 9;
     position: relative;
@@ -287,5 +287,34 @@ html,body{
 
 }
 
+#page5{
+    min-height: 150vh;
+    width: 100%; 
+    padding: 0 5vw;
+}
+
+#page5 h2{
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: #fff;
+    
+}
+.box{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 20px;
+    border-top: 2px solid #dadada;
+    color: #999999;
+}
+
+.box:nth-last-child(1){
+    border-bottom: 2px solid #dadada;
+
+}
 
 
